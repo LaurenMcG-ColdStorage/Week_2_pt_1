@@ -136,6 +136,10 @@ console.log('The sorted gems: ', gems);
 //       "Emerald and Diamond and Tourmaline and Topaz"
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
+
+/* 
+I made this bit, and immediately realized I made it way harder than it had to be.
+I've commented it out, but want to leave the code intact
 let gemString = '';
 for (let i = 0; i <= (gems.length-1); i++) {
   if ( i < gems.length-1) {
@@ -144,13 +148,18 @@ for (let i = 0; i <= (gems.length-1); i++) {
     gemString += gems[i]
   };
 };
+console.log(gemString);*/
+
+let gemString = gems.join(' and ');
 console.log(gemString);
+
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
 //     the gems array with the colors array.
 //     It should look something like:
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
-
+let colorfulGems = gems.concat(colors)
+console.log(colorfulGems);
 
 
 
