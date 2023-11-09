@@ -161,7 +161,7 @@ console.log(gemString);
 let colorfulGems = gems.concat(colors)
 console.log(colorfulGems);
 
-
+// !!! MDN really saved me on these goals !!!
 
 // DO NOT MODIFY
 // Used for automated testing
